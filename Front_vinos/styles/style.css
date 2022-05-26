@@ -1,0 +1,49 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    list-style: none;
+
+    text-decoration: none;
+
+}
+
+.centrado {
+    background-image: url(../assets/viñedo_back.jpg);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+   
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+h1{
+    font-size: 7rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 8%;
+}
+
+a{
+
+    font-size: 4rem;
+    color: black;
+    border-bottom: 5px black solid;
+
+}
+
+.seleccion{
+    display: flex;
+       align-content: center;
+    gap: 10%;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+}

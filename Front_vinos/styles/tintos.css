@@ -1,0 +1,92 @@
+body {
+    background-image: url(../assets/vinedo_tinto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    border: solid 3px black;
+    border-radius: 10%;
+    background-color: whitesmoke;
+    padding: 0.4% 2%;
+    display: flex;
+    justify-content: center;
+    width: 2vw;
+    position: relative;
+    left: 85%;
+
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    max-width: 400px;
+
+
+    box-shadow: inset 0 0 0 2px #000, inset -4px -4px 0 4px #ccc;
+
+    cursor: pointer;
+}
+
+a:hover {
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+a:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    transform-origin: 0 bottom 0;
+    transform: scaleY(0);
+    transition: 0.4s ease-out;
+}
+
+
+.contenedor_tinto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8%;
+    margin-top: 5%;
+}
+
+.ficha {
+    width: 25vw;
+    height: 70vh;
+    border: black solid 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+h3 {
+    margin: 0%;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.imagen {
+    width: 60%;
+    height: 60%;
+    border: black solid 2px;
+}
+
+.black_text {
+    position: relative;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.333;
+    transition: 0.4s ease-out;
+}
